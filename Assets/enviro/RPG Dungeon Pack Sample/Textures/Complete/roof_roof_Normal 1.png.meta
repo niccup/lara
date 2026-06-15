@@ -133,5 +133,6 @@ AssetOrigin:
   productId: 348672
   packageName: RPG Dungeon Kit DEMO
   packageVersion: 1.0
-  assetPath: Assets/RPG Dungeon Pack Sample/Textures/Complete/roof_roof_Normal 1.png
+  assetPath: Assets/enviro/RPG Dungeon Pack Sample/Textures/Complete/roof_roof_Normal
+    1.png
   uploadId: 829346
