@@ -34,7 +34,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 4_Rocks
-  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Shader: {fileID: 4800000, guid: e70a6b28e5b717f41820512455625611, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -45,7 +45,6 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
-    RenderType: Opaque
   disabledShaderPasses:
   - MOTIONVECTORS
   - TransparentBackface
@@ -143,6 +142,7 @@ Material:
     - Vector1_92EFBA: 0.75
     - Vector1_E9D540B4: 10
     - _AddPrecomputedVelocity: 0
+    - _AffineMapIntensity: 1
     - _AlphaClip: 0
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
@@ -163,6 +163,7 @@ Material:
     - _DexNormPow: 0.97
     - _DoubleSidedEnable: 0
     - _DoubleSidedNormalMode: 2
+    - _DrawDist: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnableFogOnTransparent: 1
@@ -207,6 +208,7 @@ Material:
     - _TransparentZWrite: 0
     - _UVSec: 0
     - _UseShadowThreshold: 0
+    - _VertJitter: 0.98
     - _WorkflowMode: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
